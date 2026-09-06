@@ -438,12 +438,12 @@ function initPricingToggle() {
     }
 
     if (isAnnual) {
-      if (priceBasic) priceBasic.textContent = '$39';
-      if (pricePro) pricePro.textContent = '$79';
+      if (priceBasic) priceBasic.textContent = '$30';
+      if (pricePro) pricePro.textContent = '$60';
       periodBadges.forEach(b => b.textContent = '/mes (facturado anual)');
     } else {
-      if (priceBasic) priceBasic.textContent = '$49';
-      if (pricePro) pricePro.textContent = '$99';
+      if (priceBasic) priceBasic.textContent = '$40';
+      if (pricePro) pricePro.textContent = '$70';
       periodBadges.forEach(b => b.textContent = '/mes');
     }
   });
